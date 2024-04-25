@@ -257,9 +257,10 @@ nav .clone-icon{
 } 
 
 .clientes .Conteinder div{
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 /*pagina sobre*/
@@ -568,6 +569,11 @@ nav .clone-icon{
         flex-direction: column-reverse;
      }
 
+     .clientes .Conteinder div{
+        flex-direction: column;
+        
+    }
+
      .sobre .sobre-img,
      .sobre .sobre-text{
         width: 100%;
@@ -593,6 +599,8 @@ nav .clone-icon{
      .contacto-inf .reght-size{
         margin-top: 30px;
      }
+
+    
         
 
 }
@@ -604,6 +612,11 @@ nav .clone-icon{
 
     .faca-mais .faca-mais-text h3{
          font-size: 50px;
+    }
+
+    .clientes .Conteinder div{
+        flex-direction: column;
+        
     }
 }
       
